@@ -121,6 +121,17 @@ body {
         display: block;
         padding: 10px 0;
     }
+    
+    /* Center About section content on mobile */
+    #about .container {
+        text-align: center;
+    }
+    
+    #about p {
+        text-align: center;
+        max-width: 90%;
+        margin: 0 auto 20px auto;
+    }
 }
 
 .container {
