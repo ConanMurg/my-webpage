@@ -10,13 +10,59 @@ body {
     line-height: 1.6;
     color: #1a1a1a;
     background-color: #fdfdfd;
+    padding-top: 60px; /* Account for fixed navbar */
+}
+
+/* Navigation Bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #e0e0e0;
+    z-index: 1000;
+}
+
+.nav-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.nav-brand {
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #007acc;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #007acc;
 }
 
 .container {
     width: 90%;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 20px 0;
 }
 
 h1, h2, h3 {
@@ -33,7 +79,7 @@ header#hero {
     background-color: #1a1a1a;
     color: #ffffff;
     text-align: center;
-    padding: 120px 20px;
+    padding: 60px 20px;
 }
 
 header#hero h1 {
@@ -62,12 +108,12 @@ header#hero p {
 
 /* Sections */
 section {
-    padding: 80px 0;
+    padding: 30px 0;
 }
 
 section h2 {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: 2.2em;
     color: #007acc;
 }
@@ -103,6 +149,21 @@ section h2 {
 
 .project:hover {
     transform: translateY(-5px);
+}
+
+.project-tags {
+    margin-top: 15px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #007acc;
+    color: white;
+    padding: 4px 8px;
+    margin: 2px 4px 2px 0;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: 500;
 }
 
 /* Publications */
