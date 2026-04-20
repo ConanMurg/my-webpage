@@ -2,22 +2,22 @@
 
 :root {
   
-  --bg-primary: #07070d;
-  --bg-secondary: #0c0c14;
-  --bg-tertiary: #13131d;
-  --bg-card: rgba(255, 255, 255, 0.025);
+  --bg-primary: #111118;
+  --bg-secondary: #0c0c12;
+  --bg-tertiary: #181822;
+  --bg-card: rgba(0, 0, 0, 0.5);
 
-  --surface: rgba(255, 255, 255, 0.035);
-  --surface-hover: rgba(255, 255, 255, 0.06);
-  --surface-active: rgba(255, 255, 255, 0.08);
+  --surface: rgba(0, 0, 0, 0.4);
+  --surface-hover: rgba(0, 0, 0, 0.2);
+  --surface-active: rgba(255, 255, 255, 0.03);
 
   --border: rgba(255, 255, 255, 0.06);
   --border-hover: rgba(255, 255, 255, 0.12);
   --border-accent: rgba(99, 102, 241, 0.3);
 
-  --text-primary: #f0f0f3;
-  --text-secondary: #9898a6;
-  --text-tertiary: #5c5c6d;
+  --text-primary: #ffffff;
+  --text-secondary: #b8b8c8;
+  --text-tertiary: #7a7a8c;
 
   --accent: #6366f1;
   --accent-light: #818cf8;
