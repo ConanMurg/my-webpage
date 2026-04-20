@@ -12,7 +12,7 @@ export default function Contact() {
           <div className="section-header">
             <div className="section-label">Contact</div>
             <h2 className="section-title">
-              Let's <span className="gradient-text">connect</span>
+              Contact <span className="gradient-text">Details</span>
             </h2>
           </div>
 
