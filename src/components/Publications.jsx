@@ -14,8 +14,8 @@ const publications = [
   },
   {
     type: 'paper',
-    title: 'Optimisation of a Combined Raman-XRF Spectrometer: A Planetary Exploration Tool',
-    meta: 'Murgatroyd et al. 2023 (GeoRaman Conference Proceedings)',
+    title: 'Optimising Handheld Instrumentation for Future Astronaut Missions',
+    meta: 'Murgatroyd et al. 2024 (16th International GeoRaman Conference Proceedings)',
   },
   {
     type: 'award',
