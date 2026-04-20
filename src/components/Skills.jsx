@@ -1,26 +1,36 @@
-import { Code, Database, Wrench, BarChart3 } from 'lucide-react'
+import { Code, Database, Wrench, BarChart3, BrainCircuit, Globe } from 'lucide-react'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 
 const skillCategories = [
   {
-    name: 'Languages',
+    name: 'Programming',
     icon: Code,
-    skills: ['Python', 'C++', 'C', 'R', 'SQL', 'JavaScript', 'HTML', 'CSS'],
+    skills: ['Python', 'C++', 'C', 'R', 'SQL', 'HTML', 'CSS', 'JavaScript'],
   },
   {
-    name: 'Data & Analytics',
+    name: 'Machine Learning',
+    icon: BrainCircuit,
+    skills: ['Neural Networks', 'GBM / GLM', 'Random Forest', 'Scikit-learn', 'Statistical Modelling', 'Feature Engineering'],
+  },
+  {
+    name: 'Data Analysis & Visualisation',
     icon: BarChart3,
-    skills: ['NumPy', 'Pandas', 'Scikit-learn', 'Power BI', 'Excel', 'Data Visualisation', 'Statistical Modelling', 'GBM / GLM'],
+    skills: ['Power BI', 'Excel', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Data Visualisation', 'Data Cleaning'],
   },
   {
-    name: 'Tools & Platforms',
-    icon: Wrench,
-    skills: ['Git', 'Docker', 'VS Code', 'LaTeX', 'Linux', 'Nginx', 'Google Workspace'],
-  },
-  {
-    name: 'Databases & Engineering',
+    name: 'Databases & Pipelines',
     icon: Database,
-    skills: ['PostgreSQL', 'MySQL', 'ETL Pipelines', 'Data Cleaning', 'Feature Engineering', 'REST APIs'],
+    skills: ['SQL', 'PostgreSQL', 'MySQL', 'ETL Pipelines'],
+  },
+  {
+    name: 'Web Technologies',
+    icon: Globe,
+    skills: ['React', 'Vite', 'HTML', 'CSS', 'Nginx', 'REST APIs'],
+  },
+  {
+    name: 'DevOps & Tools',
+    icon: Wrench,
+    skills: ['Git', 'Docker', 'Linux', 'VS Code', 'LaTeX'],
   },
 ]
 

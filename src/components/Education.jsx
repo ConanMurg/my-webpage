@@ -5,7 +5,7 @@ const education = [
     date: 'Sep 2022 \u2013 Apr 2026',
     title: 'PhD, Physics',
     institution: 'University of Leicester',
-    thesis: 'The Development of Combination Handheld Analytical Instruments for Astronaut Exploration.',
+    thesis: 'The Development and Optimisation of Combination Handheld Analytical Instruments to Aid Astronaut Exploration.',
     details: [
       'Applied GBM and GLM models in Python and R to large-scale spectral datasets; performed feature engineering and variable importance analysis.',
       'Presented technical findings and reports to international partners, such as ESA, conveying complex scientific data in an actionable manner.',
