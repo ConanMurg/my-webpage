@@ -655,7 +655,7 @@ button {
 .stat-card {
   padding: 28px;
   background: var(--bg-card);
-  border: 1px solid var(--border-accent);
+  border: 2px solid var(--border-accent);
   border-radius: var(--radius-md);
   text-align: center;
   transition: all var(--duration-normal) var(--ease-out);

@@ -26,9 +26,9 @@ export default function About() {
               statistical problem-solving with a strong mathematical foundation.
             </p>
             <p>
-              During my collaboration with the{' '}
+              During my PhD, I had the opportunity to collaborate with the{' '}
               <span className="about-highlight">European Space Agency (ESA)</span>, 
-              I was responsible for the end-to-end delivery of analytical projects, 
+              where I was responsible for the end-to-end delivery of analytical projects, 
               developing software for data acquisition, and providing technical 
               reports for space missions including the Einstein Probe (launched 2024) 
               and THESEUS.

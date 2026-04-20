@@ -4,16 +4,16 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation'
 const qualifications = [
   {
     institution: 'Microsoft / LinkedIn',
-    date: 'Apr 2026',
+    date: ' Apr 2026          ',
     title: 'Career Essentials in Data Analysis',
-    location: 'Virtual',
+    location: ' Virtual',
     description: 'Certification to enhance data analysis skill set. Skills covered include: data analysis, data visualisation, and data analytics with Excel, Power BI, and SQL.',
   },
   {
     institution: 'HarvardX / EdX',
-    date: 'Mar 2024',
+    date: ' Mar 2024          ',
     title: 'CS50x: Introduction to Computer Science',
-    location: 'Virtual',
+    location: ' Virtual',
     description: '11-week course to enhance computer science understanding and improve programming skill set. Languages covered include: Python, SQL, C, and JavaScript plus HTML & CSS.',
   }
 ]
