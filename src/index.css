@@ -655,16 +655,17 @@ button {
 .stat-card {
   padding: 28px;
   background: var(--bg-card);
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-accent);
   border-radius: var(--radius-md);
   text-align: center;
   transition: all var(--duration-normal) var(--ease-out);
 }
 
 .stat-card:hover {
-  border-color: var(--border-hover);
+  border-color: var(--accent-light);
   background: var(--surface-hover);
   transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.1);
 }
 
 .stat-number {
