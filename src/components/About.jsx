@@ -34,9 +34,8 @@ export default function About() {
               and THESEUS.
             </p>
             <p>
-              Beyond research, I build full-stack applications and data pipelines — 
-              from personal finance analytics platforms to library management systems 
-              — applying the same rigour I bring to scientific analysis.
+              Beyond research, I build full-stack applications and data pipelines for personal use, 
+              including my own finance analytics platform and a library management system.
             </p>
           </div>
 

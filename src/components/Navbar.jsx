@@ -20,6 +20,12 @@ export default function Navbar() {
       setScrolled(window.scrollY > 20)
 
       const sections = navItems.map((item) => item.href.slice(1))
+
+      if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 10) {
+        setActiveSection(sections[sections.length - 1])
+        return
+      }
+
       for (let i = sections.length - 1; i >= 0; i--) {
         const el = document.getElementById(sections[i])
         if (el && el.getBoundingClientRect().top <= 150) {
