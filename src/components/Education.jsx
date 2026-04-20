@@ -27,7 +27,7 @@ const education = [
     research: [
       {
         name: 'What Effect Does a Black Hole Have on the Higgs Mechanism in the Standard Model?',
-        type: 'Fourth Year Specialist Research Project (Nov 2021 T \u2013 Nov 2022)',
+        type: 'Fourth Year Specialist Research Project (Nov 2021 \u2013 Nov 2022)',
       },
       {
         name: 'Are AGN Accretion Discs Non-Standard?',

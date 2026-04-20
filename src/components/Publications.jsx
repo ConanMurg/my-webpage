@@ -4,18 +4,18 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation'
 const publications = [
   {
     type: 'paper',
-    title: 'Optimizing Handheld Instrumentation for Future Astronaut Missions',
-    meta: 'Murgatroyd et al., 2024 (Journal of Raman Spectroscopy)',
+    title: 'Optimising Handheld Instrumentation for Future Astronaut Missions',
+    meta: 'In Review: Contributing Author (Journal of Raman Spectroscopy)',
   },
   {
     type: 'paper',
-    title: 'Characterization of sCMOS Sensors for the Wide X-ray Telescope on the Einstein Probe Mission',
-    meta: 'Contributing Author (Springer Nature (Einstein Probe)',
+    title: 'Characterisation of sCMOS Sensors for the Wide X-ray Telescope on the Einstein Probe Mission',
+    meta: 'In Review: Murgatroyd et al. 2026 (Springer Nature)',
   },
   {
     type: 'paper',
     title: 'Optimisation of a Combined Raman-XRF Spectrometer: A Planetary Exploration Tool',
-    meta: 'Murgatroyd et al. (GeoRaman Conference Proceedings)',
+    meta: 'Murgatroyd et al. 2023(GeoRaman Conference Proceedings)',
   },
   {
     type: 'award',
