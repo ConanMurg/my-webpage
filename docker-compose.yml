@@ -1,4 +1,13 @@
 services:
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: cloudflared-tunnel
+    restart: unless-stopped
+    env_file:
+      - .env
+    depends_on:
+      - web
+
   web:
     container_name: my-webpage
     build:

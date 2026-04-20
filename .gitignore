@@ -24,3 +24,7 @@ dist-ssr
 *.sw?
 
 html/
+
+# Environment Variables
+.env
+.env.*
