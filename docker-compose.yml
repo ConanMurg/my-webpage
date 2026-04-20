@@ -3,6 +3,7 @@ services:
     image: cloudflare/cloudflared:latest
     container_name: cloudflared-tunnel
     restart: unless-stopped
+    command: tunnel run
     env_file:
       - .env
     depends_on:
